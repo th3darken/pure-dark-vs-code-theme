@@ -1,0 +1,22 @@
+{
+    "name": "pure-dark-color-theme",
+    "displayName": "Pure Dark Color Theme",
+    "description": "namek inspired color theme for VS Code",
+    "version": "1.0.0",
+    "publisher": "Darken",
+    "engines": {
+        "vscode": "^1.22.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "PureDark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/pure-dark-color-theme.json"
+            }
+        ]
+    }
+}
